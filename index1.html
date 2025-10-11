@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iRecco - Wind & Solar Energy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <span>27 Division St, New York, NY 10002</span>
+      <span class="divider"></span>
+      <span>iRecco@mail.com</span>
+      <span class="divider"></span>
+      <span><strong>+1 (800) 123 456 789</strong></span>
+    </div>
+    <div class="top-bar-right">
+      <a href="#">Careers</a>
+      <a href="#">News & Media</a>
+      <a href="#">FAQ</a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <header class="main-header">
+    <div class="header-left">
+      <a href="#" class="logo">
+        <img src="./Assests/Images/logo-dark.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#" class="nav-link active">Home</a></li>
+        <li><a href="#" class="nav-link">Page</a></li>
+        <li><a href="#" class="nav-link">Blog</a></li>
+        <li><a href="#" class="nav-link">Portfolio</a></li>
+        <li><a href="#" class="nav-link">Shop</a></li>
+        <li><a href="#" class="nav-link">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="#" class="menu-bar"><i class="fas fa-bars"></i></a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+ <section class="irecco-carousel">
+  <div class="irecco-carousel-slides">
+    <!-- Slide 1 -->
+    <div class="irecco-carousel-slide active">
+      <div class="irecco-carousel-left">
+        <span class="irecco-carousel-bgtext">WIND</span>
+        <h1 class="irecco-carousel-title">
+          Proven Renewable<br>Energy Solutions
+        </h1>
+        <p class="irecco-carousel-desc">
+          As a world leader in energy storage, we're not only capturing energy<br>
+          from the wind and sun, we're storing it.
+        </p>
+        <div class="irecco-carousel-actions">
+          <a href="#" class="irecco-carousel-btn-green">Learn More</a>
+          <a href="#" class="irecco-carousel-btn-telegram">
+            <span class="irecco-carousel-telegram-icon">&#9992;</span>
+            Join on Telegram
+          </a>
+        </div>
+      </div>
+      <div class="irecco-carousel-right">
+        <div class="irecco-carousel-imgwrap">
+          <img src="slide1.jpg" alt="Hero 1" class="irecco-carousel-img" />
+          <div class="irecco-carousel-playcircle">
+            <span class="irecco-carousel-play">Play</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="irecco-carousel-slide">
+      <div class="irecco-carousel-left">
+        <span class="irecco-carousel-bgtext">ENERGY</span>
+        <h1 class="irecco-carousel-title">
+          Largest Producer of<br>Wind & Solar Energy
+        </h1>
+        <p class="irecco-carousel-desc">
+          We're committed to respecting our environment, sustaining our communities,<br>
+          investing in our team and growing shareholder value.
+        </p>
+        <div class="irecco-carousel-actions">
+          <a href="#" class="irecco-carousel-btn-green">Learn More</a>
+          <a href="#" class="irecco-carousel-btn-telegram">
+            <span class="irecco-carousel-telegram-icon">&#9992;</span>
+            Join on Telegram
+          </a>
+        </div>
+      </div>
+      <div class="irecco-carousel-right">
+        <div class="irecco-carousel-imgwrap">
+          <img src="slide2.jpg" alt="Hero 2" class="irecco-carousel-img" />
+          <div class="irecco-carousel-playcircle">
+            <span class="irecco-carousel-play">Play</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="irecco-carousel-slide">
+      <div class="irecco-carousel-left">
+        <span class="irecco-carousel-bgtext">SOLAR</span>
+        <h1 class="irecco-carousel-title">
+          Cutting-edge Solar<br>Technology Solutions
+        </h1>
+        <p class="irecco-carousel-desc">
+          We deliver efficient and affordable solar power systems tailored for<br>
+          every home and business.
+        </p>
+        <div class="irecco-carousel-actions">
+          <a href="#" class="irecco-carousel-btn-green">Learn More</a>
+          <a href="#" class="irecco-carousel-btn-telegram">
+            <span class="irecco-carousel-telegram-icon">&#9992;</span>
+            Join on Telegram
+          </a>
+        </div>
+      </div>
+      <div class="irecco-carousel-right">
+        <div class="irecco-carousel-imgwrap">
+          <img src="slide3.jpg" alt="Hero 3" class="irecco-carousel-img" />
+          <div class="irecco-carousel-playcircle">
+            <span class="irecco-carousel-play">Play</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Dots Navigation -->
+  <div class="irecco-carousel-dots">
+    <span class="irecco-dot active" onclick="showIreccoSlide(0)"></span>
+    <span class="irecco-dot" onclick="showIreccoSlide(1)"></span>
+    <span class="irecco-dot" onclick="showIreccoSlide(2)"></span>
+  </div>
+  <!-- Prev/Next Buttons -->
+  <button class="irecco-carousel-prev" onclick="prevIreccoSlide()">&#10094;</button>
+  <button class="irecco-carousel-next" onclick="nextIreccoSlide()">&#10095;</button>
+</section>
+
+<section class="irecco-stats">
+  <div class="irecco-stats__left">
+    <img src="./Assests/Images/counter_img.jpg" alt="Wind Engineers" class="irecco-stats__img">
+  </div>
+  <div class="irecco-stats__right">
+    <div class="irecco-stats__item">
+     
+      <span class="irecco-stats__icon">
+        <!-- Replace below with a matching SVG icon -->
+        <img src="icon-capacity.svg" alt="Installed Capacity">
+      </span>
+      <div class="irecco-stats__value">18000+</div>
+      <div class="irecco-stats__caption">INSTALLED CAPACITY</div>
+    </div>
+    <div class="irecco-stats__item">
+      <span class="irecco-stats__icon">
+        <img src="icon-wtgs.svg" alt="WTGS Installed">
+      </span>
+      <div class="irecco-stats__value">12000+</div>
+      <div class="irecco-stats__caption">WTGS INSTALLED</div>
+    </div>
+    <div class="irecco-stats__item">
+      <span class="irecco-stats__icon">
+        <img src="icon-global.svg" alt="Customers Globally">
+      </span>
+      <div class="irecco-stats__value">2450+</div>
+      <div class="irecco-stats__caption">
+        CUSTOMERS<br>GLOBALLY
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section class="irecco-about">
+  <div class="irecco-about__container">
+    <!-- Left Image and Card -->
+    <div class="irecco-about__left">
+      <div class="irecco-about__imgwrap">
+        <img src="your-about-image.jpg" alt="Solar Engineer" class="irecco-about__img" />
+        <div class="irecco-about__card">
+          <div class="irecco-about__card-value">45k</div>
+          <div class="irecco-about__card-label">MEGAWATTS OF CAPACITY</div>
+        </div>
+      </div>
+    </div>
+    <!-- Right Title and Content -->
+    <div class="irecco-about__right">
+      <span class="irecco-about__bgtext">ABOUT</span>
+      <span class="irecco-about__label">| who we are</span>
+      <h2 class="irecco-about__title">
+        We are the Best-In-Class<br>Products & Solutions
+      </h2>
+      <p class="irecco-about__desc">
+        iRecco is among the world’s leading renewable energy solutions provider that is revolutionising and redefining the way sustainable energy sources are harnessed across the world. Present in 18 countries across Asia, Australia, Europe, Africa and the Americas, Veztaz is powering a greener tomorrow.
+      </p>
+      <a href="#" class="irecco-about__download">
+        <span class="irecco-about__download-icon">&#8681;</span>
+        Download Brochure
+      </a>
+    </div>
+  </div>
+</section>
+<section class="irecco-why-choose">
+  <div class="irecco-why-choose__container">
+    <!-- Left Column -->
+    <div class="irecco-why-choose__left">
+      <span class="irecco-why-choose__bgtext">WHY US</span>
+      <span class="irecco-why-choose__label">| <span>why choose us</span></span>
+      <h2 class="irecco-why-choose__title">
+        We are Building<br>a Sustainable Future
+      </h2>
+      <div class="irecco-why-choose__list">
+        <div class="irecco-why-choose__item">
+          <span class="irecco-why-choose__tick">&#10003;</span>
+          <div>
+            <span class="irecco-why-choose__item-title">Best Energy Solutions</span>
+            <p>Over two decades of rich experience in the wind energy sector. Over 17,900 MW capacity.</p>
+          </div>
+        </div>
+        <div class="irecco-why-choose__item">
+          <span class="irecco-why-choose__tick">&#10003;</span>
+          <div>
+            <span class="irecco-why-choose__item-title">End-To-End Services</span>
+            <p>Vast experience in power evacuation, land procurement, liaisoning and working with state.</p>
+          </div>
+        </div>
+        <div class="irecco-why-choose__item">
+          <span class="irecco-why-choose__tick">&#10003;</span>
+          <div>
+            <span class="irecco-why-choose__item-title">Global Expertise</span>
+            <p>A perfect blend of global experience and expertise to further our focus on technology advancement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Right Column -->
+    <div class="irecco-why-choose__right">
+      <div class="irecco-why-choose__grid">
+        <div class="irecco-why-choose__box irecco-why-choose__box--orange">
+          <!-- You can replace the SVG below with the original icon -->
+          <svg width="58" height="58" fill="none" viewBox="0 0 80 80" class="irecco-why-choose__icon">
+            <rect width="58" height="58" fill="none"></rect>
+          </svg>
+          <span class="irecco-why-choose__grid-title">Enhanced<br>Services</span>
+          <span class="irecco-why-choose__plus">+</span>
+          <img src="Assests/Images/services_01-1.jpg" alt="" class="irecco-why-choose__grid-img" />
+        </div>
+       
+        <div class="irecco-why-choose__box irecco-why-choose__box--img">
+          <img src="Assests/Images/services_02.jpg" alt="Windmill"/>
+        </div>
+        <div class="irecco-why-choose__box irecco-why-choose__box--green">
+          <!-- You can replace the SVG below with the original icon -->
+          <svg width="58" height="58" fill="none" viewBox="0 0 80 80" class="irecco-why-choose__icon">
+            <rect width="58" height="58" fill="none"></rect>
+          </svg>
+          <span class="irecco-why-choose__grid-title">Maintenance<br>Services</span>
+          <span class="irecco-why-choose__plus">+</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="irecco-logosbar">
+  <div class="logosbar-wrap">
+    <a href="#" class="logosbar-item"><img src="logo1.png" alt="Solana"></a>
+    <a href="#" class="logosbar-item"><img src="logo2.png" alt="Vetrov"></a>
+    <a href="#" class="logosbar-item"><img src="logo3.png" alt="Energy Solutions"></a>
+    <a href="#" class="logosbar-item"><img src="logo4.png" alt="Solar Wind"></a>
+    <a href="#" class="logosbar-item"><img src="logo5.png" alt="Dynamic"></a>
+    <div class="logosbar-item">
+      <span >DETERS</span>
+      <span >consulting group</span>
+    </div>
+  </div>
+</section>
+
+<section class="services-section-bgimg">
+  <div class="services-section-bgimg__bg"></div>
+  <div class="services-section-bgimg__row">
+    <a href="#" class="service-card-bgimg" style="background-image: url('wind-turbine.jpg');">
+      <span class="service-card-bgimg__number">01</span>
+      <span class="service-card-bgimg__title">Wind Turbines <span class="service-card-bgimg__plus">+</span></span>
+    </a>
+    <a href="#" class="service-card-bgimg" style="background-image: url('solar-panel.jpg');">
+      <span class="service-card-bgimg__number">02</span>
+      <span class="service-card-bgimg__title">Solar Panels <span class="service-card-bgimg__plus">+</span></span>
+    </a>
+    <a href="#" class="service-card-bgimg" style="background-image: url('hybrid-energy.jpg');">
+      <span class="service-card-bgimg__number">03</span>
+      <span class="service-card-bgimg__title">Hybrid Energy <span class="service-card-bgimg__plus">+</span></span>
+    </a>
+  </div>
+</section>
+
+<section class="facts-section">
+  <div class="facts-bgtext">FACTS</div>
+  <div class="facts-content">
+    <div class="facts-left">
+      <span class="facts-label">| <span>some facts</span></span>
+      <h2 class="facts-title">Greener Tomorrow<br>for Everyone</h2>
+      <p class="facts-desc">
+        Sustainable development is the creed that underpins Irecco’s bespoke initiatives to protect the environment, strengthen communities and propel responsible growth.
+      </p>
+      <div class="facts-bars">
+        <div class="facts-bar">
+          <div class="facts-bar-title">Wind Turbines</div>
+          <span class="facts-bar-percent">68 %</span>
+          <div class="facts-bar-outer"><div class="facts-bar-fill facts-bar-green" style="width:68%;"></div></div>
+        </div>
+        <div class="facts-bar">
+          <div class="facts-bar-title">Solar Panels</div>
+          <span class="facts-bar-percent">85 %</span>
+          <div class="facts-bar-outer"><div class="facts-bar-fill facts-bar-orange" style="width:85%;"></div></div>
+        </div>
+        <div class="facts-bar">
+          <div class="facts-bar-title">Hybrid Energy</div>
+          <span class="facts-bar-percent">25 %</span>
+          <div class="facts-bar-outer"><div class="facts-bar-fill facts-bar-grey" style="width:25%;"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="facts-right">
+      <div class="facts-map-bg"></div>
+      <div class="facts-dot facts-dot-green" style="top:33%; left:30%;">23000 MW</div>
+      <div class="facts-dot facts-dot-orange" style="top:55%; left:35%;">17000 MW</div>
+      <div class="facts-dot facts-dot-orange" style="top:29%; left:65%;">14000 MW</div>
+      <div class="facts-dot facts-dot-orange" style="top:79%; left:42%;">8000 MW</div>
+      <div class="facts-dot facts-dot-orange" style="top:50%; left:78%;">3000 MW</div>
+      <!-- Add more dots if needed -->
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Features/Counters Section -->
+  <section class="feature-section">
+    <div class="feature-box">
+      <h3>245+</h3>
+      <p>Happy Clients</p>
+    </div>
+    <div class="feature-box">
+      <h3>320 MW</h3>
+      <p>Energy Generated</p>
+    </div>
+    <div class="feature-box">
+      <h3>12 Years</h3>
+      <p>Industry Experience</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section">
+    <h2>Projects</h2>
+    <div class="portfolio-list">
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h3>Solar Farm Texas</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h3>Green Wind Park</h3>
+      </div>
+      <div class="portfolio-item">
+        <img src="project3.jpg" alt="Project 3">
+        <h3>Hybrid Power Station</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <h2>Our Team</h2>
+    <div class="team-list">
+      <div class="team-member">
+        <img src="team1.jpg" alt="Team Member 1">
+        <h3>Ashley Carter</h3>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="team2.jpg" alt="Team Member 2">
+        <h3>John Smith</h3>
+        <p>Lead Engineer</p>
+      </div>
+      <div class="team-member">
+        <img src="team3.jpg" alt="Team Member 3">
+        <h3>Emily Chen</h3>
+        <p>Operations Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>&copy; 2025 iRecco · Wind & Solar Energy Solutions</p>
+  </footer>
+ <script>
+let ireccoCurrent = 0;
+const ireccoSlides = document.querySelectorAll('.irecco-carousel-slide');
+const ireccoDots = document.querySelectorAll('.irecco-dot');
+
+function showIreccoSlide(idx) {
+  if (idx >= ireccoSlides.length) ireccoCurrent = 0;
+  else if (idx < 0) ireccoCurrent = ireccoSlides.length - 1;
+  else ireccoCurrent = idx;
+  ireccoSlides.forEach((s, i) => s.classList.toggle('active', i === ireccoCurrent));
+  ireccoDots.forEach((d, i) => d.classList.toggle('active', i === ireccoCurrent));
+}
+function nextIreccoSlide() { showIreccoSlide(ireccoCurrent + 1); }
+function prevIreccoSlide() { showIreccoSlide(ireccoCurrent - 1); }
+showIreccoSlide(0);
+setInterval(() => nextIreccoSlide(), 7000);
+</script>
+
+</body>
+</html>
